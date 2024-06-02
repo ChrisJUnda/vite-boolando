@@ -1,0 +1,170 @@
+/***NEW EXERCISE**/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Inizio Header*/
+
+header {
+    position: fixed;
+    background-color: orange;
+    padding: 15px 15px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.header-content img {
+    width: 150px;
+
+}
+
+/*Fine Header*/
+
+/*Inizio Main*/
+main {
+    padding-top: 100px;
+}
+
+/*CLASSI DI LAYOUT*/
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-25 {
+    width: 25%;
+
+}
+
+.col-33 {
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 50px;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+
+.col-100 {
+    width: 100%;
+}
+
+
+
+.immagine {
+    position: relative;
+}
+
+.immagine img {
+    width: 100%;
+}
+
+.sconto {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.sosten {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+
+}
+
+.blackheart {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 5px 10px;
+    background-color: white;
+    display: block;
+}
+
+.immagine:hover .blackheart {
+    display: block;
+    color: red;
+
+}
+
+.price1 {
+    color: red;
+}
+
+.immagine:hover .main-image {
+    display: none;
+}
+
+.immagine:hover .hover-image {
+    display: block;
+}
+
+.hover-image {
+    display: none;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.unstyled-list {
+    list-style-type: none;
+}
+
+.unstyled-list li {
+    display: inline-block;
+}
+
+.unstyled-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Fine Main*/
